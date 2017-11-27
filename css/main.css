@@ -126,13 +126,6 @@
   position: relative;
 }
 
-.search{
-  position: absolute;
-  top: 20px;
-  right: 0;
-  z-index: 1;
-}
-
 .field-toggle{
   position: relative;
   top: 30px;
@@ -140,7 +133,6 @@
   display: none;
   height: 50px;
 }
-
 
 .social-icons ul li{
   padding: 0 10px;
@@ -167,9 +159,16 @@
   border: 0;
   margin-bottom: 0;
 }
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: orangered;
+}
+.navbar-inverse .navbar-toggle{
+  border-color: white;
+}
 
 #header .navbar-toggle{
   margin-top: 20px;
+  enable-background: orangered;
 }
 
 #header .navbar-brand{
