@@ -296,10 +296,11 @@ ul.sub-menu {
 *******Footer******
 **************************/
 #footer {
-  padding-bottom: 1000px;
+  padding-bottom:100%;
   background-image: url(../images/home/RECURSOS-12.png);  
   background-position: center;  
   background-size: cover;
+  
   
 }
 
