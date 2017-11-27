@@ -24,13 +24,8 @@
     height: 100%;
   }
 
-
   a{
     color:#C03035;
-  }
-
-  .border{
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
 
   ul {
@@ -210,9 +205,8 @@
 }
 
 #header .navbar-inverse .navbar-nav  li a:hover{
-  color: #5E2008;
+  color: white;
 }
-
 
 /*  Dropdown menu*/
 
@@ -301,41 +295,12 @@ ul.sub-menu {
 /*************************
 *******Footer******
 **************************/
-
-/*#footer {
+#footer {
   padding-bottom: 1000px;
-  background-image: url(../images/home/RECURSOS-12.png);
+  background-image: url(../images/home/RECURSOS-12.png);  
+  background-position: center;  
+  background-size: cover;
   
-  background-position: center;
-  background-size: contain;
-}*/
-
-#footer h1{
-  margin-bottom: 65px;
-  margin-top: 36px;
-}
-
-#footer .bottom-separator {
-  margin-bottom: 60px;
-}
-
-#message {
-  height: 110px;
-  resize: none;
-}
-
-.bottom > h2 {
-  margin-top: 0;
-  margin-bottom: 26px;
-}
-
-.bottom .media-body h3 {
-  margin-top: 0;
-  padding-left: 25px;
-}
-
-.bottom .media-body h3 a{
-  color: #ea2c00;
 }
 
 /*************************
@@ -352,7 +317,6 @@ ul.sub-menu {
   margin-top: 50px;
 }
 
-
 .single-features2 h2{
   color: white;
   margin-bottom: 15px;
@@ -365,6 +329,6 @@ ul.sub-menu {
   background: #CE4611;
 }
 
-img{
+.border{  
   box-shadow: 0 2px 6px rgba(88,30,7,0.30), 0 2px 6px rgba(88,30,7,0.70);
 }
