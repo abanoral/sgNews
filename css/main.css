@@ -137,7 +137,7 @@
   }
 
   .margin-bottom{
-    margin-bottom: 35px;
+    margin-bottom: 20px;
   }
 
      .carousel-indicators.visible-xs {
@@ -235,7 +235,6 @@
 #header .navbar-inverse .navbar-nav  li.active > a:focus, 
 #header .navbar-nav.navbar-right li > a:hover,
 .navbar-inverse .navbar-nav > .open > a {
-  /*background-color: grey;*/
   border-color: white;
   border: 0;
   color: white;
@@ -248,7 +247,7 @@
 
 #features img, #features1 img, #features2 img  {  
   box-shadow: 0px 0px 37px 3px rgba(0,0,0,0.42);
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 #services img{
